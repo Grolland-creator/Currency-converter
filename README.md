@@ -1,3 +1,5 @@
+To receive data from the fixer.io server for currencies, register, copy and paste the access key into App.js. app.js has special functions and instructions
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

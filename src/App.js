@@ -14,7 +14,7 @@ function App() {
     const ratesRef = useRef({})
 
     useEffect(() => {
-        // Для получения валют с сервера, разкоментируйте и вставьте свой access_key с fixed.io
+        // To receive currencies from the server, divide and insert your Access_key with fixed.io
         // fetch('http://data.fixer.io/api/latest?access_key=')
         //     .then(res => res.json())
         //     .then(json => {
@@ -25,7 +25,7 @@ function App() {
         //     .catch((err) => {
         //         alert('Не удалось получить информацию')
         //     })
-        ratesRef.current = staticRates
+        ratesRef.current = staticRates //Claim if you get data from fixed.io
         onChangeToPrice(1);
     }, [])
 
